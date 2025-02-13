@@ -1,14 +1,18 @@
 """Program for a child day-care centre to keep track of children throughout
-the day - v2
-Choice 1 - drop off a child
+the day - v3
+Choice 2 - pick up a child
 Created By Jeongmin Kim
 """
 
-def dropoff():
+def dropOff():
     name_dropOff = input("Enter child's name: ")
     child_list = [name_dropOff].append(name_dropOff)
     print(f"{name_dropOff} is added to our list. Thank you")
     print()
+
+def pickUp()
+    name_pickUp = input("Enter child's name: ")
+    child_list = [name_pickUp]
 
 # Main routine
 choice = 0
@@ -28,4 +32,7 @@ while choice != 5:
     print()
 
     if choice == 1:
-        dropoff()
+        dropOff()
+
+    elif choice == 2:
+        pickUp()

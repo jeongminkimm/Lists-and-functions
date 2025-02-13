@@ -1,6 +1,6 @@
 """Program for a child day-care centre to keep track of children throughout
 the day - v1
-Welcome screen
+Opening screen
 Created By Jeongmin Kim
 """
 
@@ -16,3 +16,6 @@ print("2. Pick up a child")
 print("3. Calculate cost")
 print("4. Print roll")
 print("5. Exit the system")
+print()
+choice = int(input("Enter your choice (number between 1 and 5): "))
+print()
